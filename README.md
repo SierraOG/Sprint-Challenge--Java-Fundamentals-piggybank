@@ -25,9 +25,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Describe why Java is called an object oriented, strongly typed language.
+Java is called an object oriented programming language because it is based on declaring classes and instantiating objects from these classes. These objects are largely where the work is done. Java is considered a strongly typed language because each variable declaration must include the data type of the variable. The data type of the variable also can't be changed after it is declared.
 2. Give examples of Java Collections explaining the use and differences between them.
+Four examples of common collections in Java are the Array, ArrayList, HashMap, and HashSet. Arrays and ArrayLists are similar however Arrays are fixed size. The size of an array needs to be set when it is declared. An ArrayList can be declared empty and items can be addedd as needed. HashMaps are made up of entries of data which have a key and a value. HashMaps are not fixed size and entries can be added as needed. HashSets are similar to HashMaps, however the key for each element in HashSets must be unique or the entry will not be added.
 3. What is recursion and how does it differ from regular looping?
+Recursion is when a function calls itself and terminates when some base condition is met. A loop iterates over a sequence and terminates when some control value is reached. 
 4. Explain the differences between Abstract Classes and Interfaces including scenarios of when to use them.
+Abstract classes don't support multiple inheritance whereas interfaces do. Interfaces can't be used to create objects and can only give structure whereas Abstract Classes can give body methods and structure. Interfaces are better if you are expecting to have very different classes implementing your interface or if you want to inherit from multiple interfaces. Abstract Classes are better if code needs to be shared between multiple similar classes. 
 
 ## Instructions
 
